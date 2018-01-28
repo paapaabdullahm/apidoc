@@ -5,7 +5,7 @@ MAINTAINER Abdullah Morgan <paapaabdullahm@gmail.com>
 ENV SRC_INPUT=./
 ENV DOC_OUTPUT=docs/
 
-RUN npm install apidoc -g; npm cache clear;
+RUN npm install apidoc -g;
 
 WORKDIR /app
 
